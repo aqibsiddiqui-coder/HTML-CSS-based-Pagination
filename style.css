@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Inter", sans-serif;
+  line-height: 1.5;
+  display: flex;
+  justify-content: center;
+  /* background-color: beige; */
+}
+
+.page--links {
+  /* width: 800px; */
+  /* margin: 100px auto; */
+
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+}
+
+.page--number {
+  background-color: #fff;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border: none;
+  font-size: 18px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.page--number:link {
+  background-color: #fff;
+  color: #343a40;
+  text-decoration: none;
+}
+
+.page--number:hover {
+  color: #fff;
+  background-color: #087f5b;
+}
+
+.number--3:visited {
+  background-color: #087f5b;
+  color: #fff;
+}
+
+.number--3: {
+}
+
+.btn {
+  width: 48px;
+  height: 48px;
+  padding: 7px;
+  border-radius: 50%;
+  border: 1px solid #087f5b;
+  color: #0ca678;
+  background: none;
+}
+
+.btn:link {
+  border: 1px solid #087f5b;
+}
+
+.btn:hover {
+  background-color: #087f5b;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* .stroke {
+  stroke: 3px;
+  size: 4px;
+} */
+
+.pagination {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 0 14px;
+  margin-top: 200px;
+}
